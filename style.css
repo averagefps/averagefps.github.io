@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(33, 155, 226);
+    background: rgb(179, 64, 194);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -37,7 +37,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(197, 7, 255);
     display: flex;
 }
 .sidebar {
@@ -54,7 +54,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 8px rgb(214, 49, 49) ridge;
+    border: 8px rgb(245, 56, 9) ridge;
     padding: 6px;
 }
 h2, h3 {
@@ -63,7 +63,7 @@ h2, h3 {
 
 /* portfolio styles */
 .content h1 {
-    color: black;
+    color: rgb(233, 24, 24);
 }
 
 #portfolio {
@@ -72,21 +72,21 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #fff;
+    background: #a701e9;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #bd0c1b;
 }
 
 #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: #df1515;
 }
-Extra Challenge
+/*Extra Challenge
 Here's some other things to try:
 
 Google 'border radius' and add it to the nav selector to give the <nav> element rounded corners
@@ -97,7 +97,7 @@ Make website mobile responsive.
 
 Note: If you have preexisting style tags in your index.html file, you put the link to your style.css file with your responsive style rules at the bottom of the <head> tag.
 
-Here's some CSS to get you started on making your website mobile responsive
+Here's some CSS to get you started on making your website mobile responsive*/
 
    /* responsive web design */
    @media screen and (min-width: 120px) and (max-width: 1080px) {
@@ -141,6 +141,7 @@ Here's some CSS to get you started on making your website mobile responsive
      p,
      li {
        font-size: 24px;
+       color: rgb(82, 66, 226);
      }
 
      .content {
