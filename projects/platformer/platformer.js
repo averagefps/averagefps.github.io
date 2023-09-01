@@ -43,11 +43,13 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-createPlatform(935, 520, 8, 1.5);
-createPlatform(1200, 600, 1.5, 1.5);
-createPlatform(1200, 450, 1.5, 1.5);
+createPlatform(935, 520, 10, 1.5);
+createPlatform(1200, 600, 16, 2);
+createPlatform(1200, 450, 16, 2);
 createPlatform(1200, 310, 30, 10);
-createPlatform()
+createPlatform(100, 599, 110, 20);
+createPlatform(400, 450, 110, 20);
+createPlatform(790, 400, 110, 20);
 
 
     
@@ -66,8 +68,9 @@ createCollectable('max', 1189, 300, 1, 1)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
-
+createCannon("left", 580, 1000); // cannon on left wall, 600px down, shooting once per 1.2 of a second
+createCannon("right", 430, 1000); // cannon on top wall, 400px down, shooting once per 3 of a second
+createCannon("top", 320, 1000); // cannon on left wall, 600px down, shooting once per 1.2 of a second
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
